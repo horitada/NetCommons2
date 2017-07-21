@@ -31,3 +31,5 @@ ul.ui-listview .ui-li-heading a,ul.ui-listview .ui-li-heading a span.ui-btn-inne
 .nc-calendar .ui-bar .ui-btn-inner { padding: .4em 2px .5em; }
 
 .ui-content .ui-title{ min-height: 1.1em; text-align: center; font-size: 16px; display: block; margin: 0px;  padding: 0.2em;  text-overflow: ellipsis; overflow: hidden; white-space: nowrap; outline: 0 !important; }
+/*スマホ表示時の新規登録ボタン押せない問題の解決*/
+.ui-btn-hidden { line-height:normal; }
